@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url("./src/songs/198706.jpg");
+    background-color: black;
+}
+h1,h2,h3{
+    text-align: center;
+    color: red;
+}
+h1{
+    font-size: 90px;
+}
+#playerDisplay{
+    top: 45vh;
+    position: relative;
+    left: 25vw;
+    align-items: center;
+    width: 50vw;
+    display: inline-block;
+
+    border-radius: 10px;
+
+}
+#controls{
+    position: relative;
+    display: inline-block;
+    align-self: center;
+    left: 20%;
+}
+audio{
+    display: block;
+}
+button{
+    background-color: red;
+    font-size: xx-large;
+    color:white;
+    width: 200px;
+    height: 90px;
+    border-radius: 25%;
+}
+#prevButton{
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+#playButton{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#nextButton{
+    border-bottom-right-radius:50% ;
+    border-top-right-radius: 50% ;
+}
